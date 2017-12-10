@@ -1,0 +1,425 @@
+#modal-ds-easy-contact-box {
+    margin-left: -350px;
+    padding-bottom: 70px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    top: 10%;
+    border-radius: 4px;
+    width: 700px;
+    background: #fff;
+    left: 50%;
+    bottom: auto;
+    overflow: visible;
+    border: none;
+    box-shadow: 0px 0px 60px 10px rgba(46, 48, 51, 0.2);
+}
+
+#modal-ds-easy-contact-box.in {
+    display: block !important;
+}
+
+#modal-ds-easy-contact-box .modal-ds-easy-contact-message {
+    margin-bottom: 30px;
+}
+
+#modal-ds-easy-contact-box .modal-ds-easy-contact-message:empty {
+    margin-bottom: 0;
+}
+
+#modal-ds-easy-contact-box .ds-simple-contact-form label {
+    display: block !important;
+}
+
+#modal-ds-easy-contact-box .modal-header .close {
+    color: #fff;
+    height: 60px;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    position: absolute;
+    border: medium none;
+    right: -30px;
+    top: -30px;
+    width: 60px;
+    -webkit-transition: all 0.2s ease 0s !important;
+    -moz-transition: all 0.2s ease 0s !important;
+    -o-transition: all 0.2s ease 0s !important;
+    transition: all 0.2s ease 0s !important;
+}
+
+#modal-ds-easy-contact-box .modal-header .close:hover {
+    background: transparent none repeat scroll 0 0;
+    outline: none;
+}
+
+#modal-ds-easy-contact-box .modal-header .close span {
+    background: #3d3d3d url("../images/close.png") no-repeat scroll center center;
+    border-radius: 35px;
+    box-shadow: none;
+    display: block;
+    height: 100%;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    width: 100%;
+}
+
+#modal-ds-easy-contact-box .modal-header .close:hover span {
+    background-color: grey;
+    background-position: center center;
+}
+
+#modal-ds-easy-contact-box .modal-header {
+    border: medium none;
+    padding: 60px 70px 34px;
+}
+
+#modal-ds-easy-contact-box .modal-header h3 {
+    color: #444;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+#modal-ds-easy-contact-box .modal-body {
+    box-sizing: border-box;
+    padding: 0 70px 0;
+    width: 100%;
+    overflow-y: visible !important;
+}
+
+#modal-ds-easy-contact-box .button-box {
+    text-align: right;
+}
+
+#modal-ds-easy-contact-box .button-box button {
+    background: #46ace2;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 15px 55px;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+    box-sizing: content-box;
+    backface-visibility: hidden;
+}
+
+#modal-ds-easy-contact-box .button-box button span {
+    backface-visibility: hidden;
+    display: inline-block;
+    height: 100%;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+}
+
+#modal-ds-easy-contact-box .button-box button:hover span {
+    transform: translateX(300%);
+}
+
+#modal-ds-easy-contact-box .button-box button:before {
+    background: #46ace2 url("../images/send.png") no-repeat scroll center center;
+    content: "";
+    height: 100%;
+    border-radius: 4px;
+    left: -100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+#modal-ds-easy-contact-box .button-box button:hover:before {
+    left: 0;
+}
+
+#modal-ds-easy-contact-box .ds-simple-contact-form-row {
+    position: relative;
+}
+
+#modal-ds-easy-contact-box .ds-simple-contact-form-row.name {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#modal-ds-easy-contact-box .email-field-not-active .ds-simple-contact-form-row.name,
+#modal-ds-easy-contact-box .name-field-not-active .ds-simple-contact-form-row.phone,
+#modal-ds-easy-contact-box .phone-field-not-active .ds-simple-contact-form-row.email {
+    width: 100%;
+    padding-right: 0;
+}
+
+#modal-ds-easy-contact-box .ds-simple-contact-form-row.email,
+#modal-ds-easy-contact-box .ds-simple-contact-form-row.phone {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#modal-ds-easy-contact-box .ds-simple-contact-form-row.message {
+    clear: both;
+    float: left;
+    margin: 44px 0 40px;
+    width: 100%;
+}
+
+#modal-ds-easy-contact-box .ds-simple-contact-form-row.name input,
+#modal-ds-easy-contact-box .ds-simple-contact-form-row.email input,
+#modal-ds-easy-contact-box .ds-simple-contact-form-row.phone input {
+    border-top: medium none;
+    border-left: medium none;
+    border-right: medium none;
+    border-bottom: 1px solid #e9e9e9;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #444;
+    font-size: 16px;
+    font-weight: normal;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+}
+
+#modal-ds-easy-contact-box .ds-simple-contact-form-row.message input,
+#modal-ds-easy-contact-box .ds-simple-contact-form-row.message textarea {
+    border-top: medium none;
+    border-left: medium none;
+    border-right: medium none;
+    border-bottom: 1px solid #e9e9e9;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #444;
+    font-size: 16px;
+    font-weight: normal;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+}
+
+#modal-ds-easy-contact-box .ds-simple-contact-form-row.message textarea {
+    height: 150px;
+    resize: none;
+}
+
+#modal-ds-easy-contact-box .ds-simple-contact-form-row.message input,
+#modal-ds-easy-contact-box .ds-simple-contact-form-row.message textarea {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+#modal-ds-easy-contact-box .captcha-box {
+    float: left;
+    margin-right: 10px;
+}
+
+#modal-ds-easy-contact-box .easy-contact-form {
+    margin: 0;
+}
+
+#modal-ds-easy-contact-box input:focus,
+#modal-ds-easy-contact-box textarea:focus {
+    outline: medium none;
+}
+
+#modal-ds-easy-contact-box .highlight {
+    height: 60%;
+    left: 0;
+    opacity: 0.5;
+    pointer-events: none;
+    position: absolute;
+    top: 25%;
+    width: 100px;
+}
+
+#modal-ds-easy-contact-box .bar {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+#modal-ds-easy-contact-box .bar::before,
+#modal-ds-easy-contact-box .bar::after {
+    background: #5264ae none repeat scroll 0 0;
+    bottom: 1px;
+    content: "";
+    height: 2px;
+    position: absolute;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    width: 0;
+}
+
+#modal-ds-easy-contact-box .bar::after {
+    right: 50%;
+}
+
+#modal-ds-easy-contact-box input:focus~.bar::before,
+#modal-ds-easy-contact-box textarea:focus~.bar::after {
+    width: 50%;
+}
+
+#modal-ds-easy-contact-box .bar::before,
+#modal-ds-easy-contact-box .bar::after {
+    background: #3f9acb none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s ease 0s;
+    width: 0;
+    z-index: 10;
+}
+
+#modal-ds-easy-contact-box .bar::before {
+    left: 50%;
+}
+
+#modal-ds-easy-contact-box input:focus~.bar::before,
+#modal-ds-easy-contact-box input:focus~.bar::after,
+#modal-ds-easy-contact-box textarea:focus~.bar::before,
+#modal-ds-easy-contact-box textarea:focus~.bar::after {
+    width: 50%;
+}
+
+#modal-ds-easy-contact-box input:focus~.highlight,
+#modal-ds-easy-contact-box textarea:focus~.highlight {
+    animation: 0.3s ease 0s normal none 1 running inputHighlighter;
+}
+
+#modal-ds-easy-contact-box label {
+    color: #444;
+    font-size: 16px;
+    font-weight: normal;
+    left: 0;
+    margin: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 15px;
+    transition: all 0.2s ease 0s;
+    z-index: 2;
+}
+
+#modal-ds-easy-contact-box .name label,
+#modal-ds-easy-contact-box .email label,
+#modal-ds-easy-contact-box .phone label {
+    left: 20px;
+}
+
+#modal-ds-easy-contact-box input:focus~label,
+#modal-ds-easy-contact-box input:valid~label,
+#modal-ds-easy-contact-box input[type="email"]:not(.empty-email-field)~label,
+
+#modal-ds-easy-contact-box textarea:focus~label,
+#modal-ds-easy-contact-box textarea:valid~label {
+    color: #c8c8c8 !important;
+    font-size: 14px !important;
+    left: 30px !important;
+}
+
+.modal-backdrop,
+.modal-backdrop.fade.in {
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+}
+
+
+/*** RWD ***/
+
+@media (max-width: 1367px) {
+    #modal-ds-easy-contact-box {
+        margin-left: -40%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    #modal-ds-easy-contact-box .captcha-box {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    #modal-ds-easy-contact-box .button-box {
+        width: 100%;
+        float: left;
+    }
+    #modal-ds-easy-contact-box .ds-simple-contact-form-row.name,
+    #modal-ds-easy-contact-box .ds-simple-contact-form-row.email,
+    #modal-ds-easy-contact-box .ds-simple-contact-form-row.phone {
+        width: 100%;
+        padding: 0;
+    }
+    #modal-ds-easy-contact-box .ds-simple-contact-form-row.email,
+    #modal-ds-easy-contact-box .ds-simple-contact-form-row.phone {
+        margin-top: 20px;
+    }
+    #modal-ds-easy-contact-box .ds-simple-contact-form-row.message {
+        margin: 20px 0 40px;
+    }
+    #modal-ds-easy-contact-box .email label,
+    #modal-ds-easy-contact-box .phone label {
+        left: 0;
+    }
+    #modal-ds-easy-contact-box .modal-header {
+        padding: 20px 20px 10px;
+    }
+    #modal-ds-easy-contact-box .modal-body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #modal-ds-easy-contact-box {
+        padding-bottom: 20px;
+    }
+    #modal-ds-easy-contact-box .button-box {
+        text-align: left;
+    }
+}
+
+@media (max-height: 599px) {
+    #modal-ds-easy-contact-box {
+        position: absolute;
+    }
+    .modal-open {
+        overflow: visible;
+    }
+}
+
+.ds-alert-error-message {
+    background-color: #e6c0c0;
+    color: #c00;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 5px 8px 14px;
+}
+
+.ds-alert-success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 5px 8px 14px;
+}

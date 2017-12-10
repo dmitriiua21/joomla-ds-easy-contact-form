@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.0.0" client="site" method="upgrade">
+    <name>DS-EasyContact</name>
+    <creationDate>December 2017</creationDate>
+    <author>Dmitriy Smirnov</author>
+    <copyright>Copyright (C) 2017</copyright>
+    <license> http://www.gnu.org/licenses GNU/GPL</license>
+    <authorEmail>dmitriiua21@gmail.com</authorEmail>
+    <authorUrl>dmitriiua21@gmail.com</authorUrl>
+    <version>1.0.0</version>
+    <description>Simple Contact Form for Joomla</description>
+    <files>
+        <filename module="mod_ds_easy_contact">mod_ds_easy_contact.php</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <folder>assets</folder>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+
+                <field
+                    name="jquery"
+                    type="radio"
+                    default="0"
+                    label="MOD_DS_EASYCONTACT_JQUERY"
+                    description="MOD_DS_EASYCONTACT_JQUERY">
+                        <option value="0">MOD_DS_EASYCONTACT_NO</option>
+                        <option value="1">MOD_DS_EASYCONTACT_YES</option>
+                </field>
+
+                <field
+                    name="spacert1"
+                    type="spacer"
+                    class="text"
+                    label="MOD_DS_EASYCONTACT_EMAIL_PARAMETERS">
+                </field>
+                
+                <field
+                    name="email_required"
+                    type="radio"
+                    default="1"
+                    label="MOD_DS_EASYCONTACT_EMAIL_IN_FORM"
+                    description="MOD_DS_EASYCONTACT_EMAIL_DISPLAYED">
+                        <option value="0">MOD_DS_EASYCONTACT_NO</option>
+                        <option value="1">MOD_DS_EASYCONTACT_YES</option>
+                </field>
+
+                <field
+                    name="email_recipient"
+                    type="text"
+                    default="email@email.com"
+                    label="MOD_DS_EASYCONTACT_EMAIL_RECIPIENT"
+                    description="MOD_DS_EASYCONTACT_EMAIL_RECIPIENT">
+                </field>
+
+                <field
+                    name="from_email"
+                    type="text"
+                    default="email@email.com"
+                    label="MOD_DS_EASYCONTACT_EMAIL_FROM"
+                    description="MOD_DS_EASYCONTACT_EMAIL_FROM_DESC">
+                </field>
+
+                <field
+                    name="from_email_name"
+                    type="text"
+                    default="Default Sender Name"
+                    label="MOD_DS_EASYCONTACT_EMAIL_FROM_NAME"
+                    description="MOD_DS_EASYCONTACT_EMAIL_FROM_NAME">
+                </field>
+
+                <field
+                    name="email_subject"
+                    type="text"
+                    default="Default Subject"
+                    label="MOD_DS_EASYCONTACT_DEFAULT_LABEL"
+                    description="MOD_DS_EASYCONTACT_DEFAULT_LABEL">
+                </field>
+
+                <field
+                    name="spacer1"
+                    type="spacer"
+                    hr="true">
+                </field>
+
+                <field
+                    name="spacert2"
+                    type="spacer"
+                    class="text"
+                    label="MOD_DS_EASYCONTACT_TEXT_PARAMETERS">
+                </field>
+
+                <field
+                    name="introtext"
+                    type="text"
+                    default="" label="MOD_DS_EASYCONTACT_INTROTEXT" description="MOD_DS_EASYCONTACT_INTROTEXT_DESC">
+                </field>
+
+                <field
+                    name="message_label"
+                    type="text"
+                    default="Message"
+                    label="MOD_DS_EASYCONTACT_MESSAGE_LABEL" description="MOD_DS_EASYCONTACT_MESSAGE_LABEL">
+                </field>
+
+                <field
+                    name="spacer4"
+                    type="spacer"
+                    hr="true">
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
